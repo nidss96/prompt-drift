@@ -13,13 +13,11 @@ Starting with either a text prompt or an image, the app alternates between gener
 - Uses **GPT-4o** to describe images in text
 - Watch how concepts shift over time through repeated generations
 
----
-
 ## Model Details
 
 By default, this app uses the following models from OpenAI:
 
-- **Image generation**: `dall-e-3`](https://platform.openai.com/docs/guides/images) — to convert text prompts into images
+- **Image generation**: [`dall-e-3`](https://platform.openai.com/docs/guides/images) — to convert text prompts into images
 - **Image description**: [`gpt-4o`](https://platform.openai.com/docs/guides/vision) — a multimodal model that can interpret image content
 
 However, the app is modular and can be adapted to use **any provider** (e.g., Hugging Face) that supports:
