@@ -24,7 +24,6 @@ Starting with either a text prompt or an image, the app alternates between gener
 ```
 
 2. **Install dependencies**
-Make sure you have Python 3.8+ and run:
 ```bash
 pip install -r requirements.txt
 ```
