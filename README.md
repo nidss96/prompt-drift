@@ -9,8 +9,6 @@ Starting with either a text prompt or an image, the app alternates between gener
 ## Features
 
 - Start with a **text prompt** or an **image**
-- Uses **OpenAI's DALL·E 3** to generate images
-- Uses **GPT-4o** to describe images in text
 - Watch how concepts shift over time through repeated generations
 
 ## Model Details
