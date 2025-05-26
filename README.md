@@ -15,6 +15,19 @@ Starting with either a text prompt or an image, the app alternates between gener
 
 ---
 
+## Model Details
+
+By default, this app uses the following models from OpenAI:
+
+- **Image generation**: `dall-e-3`](https://platform.openai.com/docs/guides/images) — to convert text prompts into images
+- **Image description**: [`gpt-4o`](https://platform.openai.com/docs/guides/vision) — a multimodal model that can interpret image content
+
+However, the app is modular and can be adapted to use **any provider** (e.g., Hugging Face) that supports:
+- A **text-to-image generation** endpoint
+- A **multimodal LLM** that can accept and describe images
+
+---
+
 ## Setup Instructions
 
 1. **Clone the repository**
