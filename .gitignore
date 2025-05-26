@@ -1,0 +1,14 @@
+# Don't track secrets
+.env
+.streamlit/secrets.toml
+
+# Python & Streamlit cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks (if not needed)
+*.ipynb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
